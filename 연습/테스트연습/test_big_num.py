@@ -7,3 +7,6 @@ class TestCase(unittest.TestCase):
     res = find_big_num(input)
     
     self.assertEqual(res, 654)
+    
+if __name__ == '__main__':
+  unittest.main()
